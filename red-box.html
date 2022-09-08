@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            height: 2500px;
+        }
+        .container{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            position: relative;
+        }
+        .red-box{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            top: 50px;
+            position: absolute;
+            left:200px;
+        }
+        .blue-box{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+        }
+        .yellow-box{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 110px;
+            left: 110px;
+        }
+
+
+    </style>
+    <div class="container">
+        <div class="red-box"></div>
+        <div class="blue-box"></div>
+        <div class="yellow-box"></div>
+    </div>
+
+    
+</body>
+</html>

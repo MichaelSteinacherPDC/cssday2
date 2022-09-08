@@ -1,0 +1,15 @@
+p{
+    border: 2px solid red;
+    display: inline-block;
+    width: 200px;
+}
+
+.nav-link{
+    border: 2px solid green;
+    display: none;
+    width: 100px;
+}
+
+a[target]{
+    color: red;
+}
